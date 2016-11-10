@@ -205,7 +205,7 @@ public class DbHelper extends SQLiteOpenHelper {
         addAnimal(unicorn);
         Animal goat = new Animal(399, 16, "Goat", "Spain", "Plant matter, cliff salt, mushrooms.", "Picky eater. Frequent flatulater. Good kisser.", R.drawable.smilinggoat, "Of Course, Billy.");
         addAnimal(goat);
-        Animal blobFish = new Animal(12, 130, "Fish", "New Zealand", "Anything fat-free", "Official Mascot of the UAPS (Ugly Animal Preservation Society) Excellent deep-sea diver. Big-boned.", R.drawable.blobfish, "Anjellica");
+        Animal blobFish = new Animal(12, 130, "Fish", "New Zealand", "Anything fat-free", "Official Mascot of the UAPS (Ugly Animal Preservation Society) Excellent deep-sea diver. Big-boned.", R.drawable.blobfish, "Angelica");
         addAnimal(blobFish);
         Animal rock = new Animal(3, 15000000, "Sedimentary", "New York", "Vegan", "Social, hard-headed, likes company. This rock will never let you down, and offers great protection against giants.", R.drawable.petrock, "Norm");
         addAnimal(rock);
