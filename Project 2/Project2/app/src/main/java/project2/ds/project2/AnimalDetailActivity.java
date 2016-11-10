@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import project2.ds.project2.database.DbHelper;
 
@@ -61,7 +62,7 @@ public class AnimalDetailActivity extends AppCompatActivity {
             mDiet.setText("Eats: " +mAnimal.getDiet());
             mAnimalImageId.setImageResource(mAnimal.getAnimalImageId());
             mAboutAnimal.setText("About: " +mAnimal.getAboutAnimal());
-            mAnimalName.setText("Name: " +mAnimal.getAnimalName());
+            mAnimalName.setText(mAnimal.getAnimalName());
         }
 
 
@@ -69,6 +70,7 @@ public class AnimalDetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 ShoppingCart.getInstance().addAnimal(mAnimal);
+                Toast.makeText(AnimalDetailActivity.this, "Item Added to Cart", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -76,7 +78,6 @@ public class AnimalDetailActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
 
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
@@ -89,9 +90,6 @@ public class AnimalDetailActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
         switch (id) {

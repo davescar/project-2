@@ -19,15 +19,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="serif"
+            android:paddingLeft="2dp"
+            android:paddingTop="15dp"
             android:text="Name:"
-            android:textSize="16dp"/>
+            android:textSize="20dp"
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/cost"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="serif"
+            android:padding="4dp"
             android:text="Cost:"
+
             android:textSize="16dp"/>
 
         <TextView
@@ -35,6 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="serif"
+            android:padding="4dp"
             android:text="Region of Origin:"
             android:textSize="16dp"/>
 
@@ -43,6 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="serif"
+            android:padding="4dp"
             android:text="Species:"
             android:textSize="16dp"/>
 
@@ -51,6 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="serif"
+            android:padding="4dp"
             android:text="Lifespan:"
             android:textSize="16dp"/>
 
@@ -59,6 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="serif"
+            android:padding="4dp"
             android:text="Diet:"
             android:textSize="16dp"/>
 
@@ -67,6 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="serif"
+            android:padding="4dp"
             android:text="Description:"
             android:textSize="16dp"/>
 
@@ -74,7 +84,8 @@
             android:id="@+id/addAnimalToCart"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="monospace"
+            android:layout_gravity="center"
+            android:padding="10dp"
             android:text="add to cart"
             android:textSize="16dp"/>
 

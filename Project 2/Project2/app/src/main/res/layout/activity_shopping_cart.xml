@@ -12,19 +12,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="project2.ds.project2.ShoppingCartActivity">
 
-    <android.support.v7.widget.RecyclerView
+
+        <android.support.v7.widget.RecyclerView
         android:id="@+id/shopping_cart_recycler"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
 
-
-    </android.support.v7.widget.RecyclerView>
+</android.support.v7.widget.RecyclerView>
 
     <Button
-        android:id="@+id/checkOut"
+        android:id="@+id/checkout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Checkout"/>
+        android:text="Checkout"
+        android:layout_gravity="center"/>
+
 
 </LinearLayout>

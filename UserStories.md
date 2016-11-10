@@ -12,4 +12,4 @@ As a user, I can view a scrollable list of all the pets available.
 As a user, I can add pets to my personal shopping cart.
 As a user, I can confirm I want these pets, and check them out for 2-day arrival!
 
-
+The user's query must 

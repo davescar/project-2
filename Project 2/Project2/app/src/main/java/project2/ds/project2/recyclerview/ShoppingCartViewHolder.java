@@ -31,8 +31,7 @@ public class ShoppingCartViewHolder extends RecyclerView.ViewHolder {
         return mAnimalName;
     }
 
-    public TextView getAnimalCost() {
-        return mAnimalCost;
+    public TextView getAnimalCost() {return mAnimalCost;
     }
 
 

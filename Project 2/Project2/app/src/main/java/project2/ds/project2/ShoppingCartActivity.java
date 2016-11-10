@@ -30,7 +30,7 @@ public class ShoppingCartActivity extends AppCompatActivity {
         mShoppingCartRecyclerAdapter = new ShoppingCartRecyclerAdapter(ShoppingCart.getInstance().getAnimals());
         recyclerView.setAdapter(mShoppingCartRecyclerAdapter);
 
-        mCheckoutButton = (Button) findViewById(R.id.checkOut);
+        mCheckoutButton = (Button) findViewById(R.id.checkout);
         mCheckoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

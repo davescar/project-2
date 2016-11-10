@@ -12,15 +12,17 @@
     <LinearLayout
         android:id="@+id/name_and_cost"
         android:layout_width="0dp"
-        android:layout_weight="1"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
 
         <TextView
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="serif"
+            android:paddingLeft="3dp"
             android:text="Name"/>
 
         <TextView
@@ -28,6 +30,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="serif"
+            android:textStyle="bold"
+            android:paddingLeft="3dp"
             android:text="Cost"/>
 
     </LinearLayout>
@@ -36,6 +40,7 @@
         android:id="@+id/remove_item"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingTop="10dp"
         android:text="Remove "/>
 
 </LinearLayout>
