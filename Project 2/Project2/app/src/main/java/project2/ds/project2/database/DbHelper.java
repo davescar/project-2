@@ -19,7 +19,7 @@ import project2.ds.project2.R;
 
 public class DbHelper extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 10;
+    private static final int DATABASE_VERSION = 11;
     public static final String DATABASE_NAME = "ANIMALS_DB";
     public static final String ANIMAL_LIST_TABLE_NAME = "ANIMAL_LIST";
 
@@ -199,7 +199,7 @@ public class DbHelper extends SQLiteOpenHelper {
         addAnimal(skunk);
         Animal koala = new Animal(3200, 13, "Koala", "Australia", "Eucalyptus", "Somewhat housebroken. Loves Vin Diesel movies. Can be aggressive when coming down from Eucalyptus high. ", R.drawable.koala_eating, "GumNut");
         addAnimal(koala);
-        Animal bunny = new Animal(129000, 65, "Human", "USA", "Froyo, lettuce, Açaí berries", "Beautiful, friendly, and from a small-American town. Likes to bounce around. Distracted by shiny objects.", R.drawable.bunny, "Charlotte");
+        Animal bunny = new Animal(129000, 65, "Human", "USA", "Froyo, lettuce, Açaí berries", "Beautiful, friendly, and from a small-American town. Likes to bounce around. Distracted by shiny objects.", R.drawable.pb2, "Camilla");
         addAnimal(bunny);
         Animal unicorn = new Animal(3500, 15, "Unicorn", "Yugoslavia", "Elves, fairies, pixie dust", "A unicorn's horn is said to have the power to render poisoned water potable and to heal sickness. Many academics doubt that that's actually true, though. ", R.drawable.unicorn, "Headstick");
         addAnimal(unicorn);

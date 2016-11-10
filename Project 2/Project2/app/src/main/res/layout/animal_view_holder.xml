@@ -7,10 +7,8 @@
 
     <ImageView
         android:id="@+id/animal_image"
-        android:layout_width="124dp"
-        android:layout_height="96dp"
-        android:scaleType="fitStart"/>
-
+        android:layout_width="96dp"
+        android:layout_height="96dp"/>
     <LinearLayout
         android:id="@+id/name_and_cost"
         android:layout_width="wrap_content"
@@ -22,7 +20,6 @@
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
             android:textSize="19dp"
             android:textStyle="bold"
             android:text="Name"/>
@@ -31,7 +28,6 @@
             android:id="@+id/cost"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
             android:textSize="19dp"
             android:textStyle="italic"
             android:text="Cost"/>
